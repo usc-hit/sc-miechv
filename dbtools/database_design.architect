@@ -502,11 +502,11 @@ Will use enums 1,2,3,4</remarks>
    </relationship>
   </relationships>
  </target-database>
- <ddl-generator type="ca.sqlpower.architect.ddl.MySqlDDLGenerator" allow-connection="false" target-catalog="miechv"> </ddl-generator>
+ <ddl-generator type="ca.sqlpower.architect.ddl.MySqlDDLGenerator" allow-connection="true" target-catalog="miechv"> </ddl-generator>
  <liquibase-settings useSeparateChangeSets="false" generateId="false" idStart="1"/>
  <create-kettle-job-settings filePath="" jobName="" schemaName="" kettleJoinType="0" savingToFile="true" />
  <play-pen zoom="1.0" viewportX="0" viewportY="0" relationship-style="rectilinear" names-displayLogicalNames="true" showPrimaryTag="true" showForeignTag="true" showAlternateTag="true" columnVisibility="ALL" relationshipLabelVisibility="true">
-  <table-pane table-ref="TAB1" x="313" y="62" bgColor="0xbfd6ff" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB1" x="293" y="22" bgColor="0xbfd6ff" fgColor="0x000000" rounded="false" dashed="false"/>
   <table-pane table-ref="TAB9" x="556" y="64" bgColor="0xbfd6ff" fgColor="0x000000" rounded="false" dashed="false"/>
   <table-pane table-ref="TAB25" x="865" y="69" bgColor="0xbfd6ff" fgColor="0x000000" rounded="false" dashed="false"/>
   <table-pane table-ref="TAB32" x="871" y="255" bgColor="0xbfd6ff" fgColor="0x000000" rounded="false" dashed="false"/>
@@ -515,8 +515,8 @@ Will use enums 1,2,3,4</remarks>
   <table-pane table-ref="TAB53" x="872" y="347" bgColor="0xbfd6ff" fgColor="0x000000" rounded="false" dashed="false"/>
   <table-pane table-ref="TAB60" x="26" y="68" bgColor="0xf6bcbc" fgColor="0x000000" rounded="false" dashed="false"/>
   <table-pane table-ref="TAB72" x="24" y="248" bgColor="0xf6bcbc" fgColor="0x000000" rounded="false" dashed="false"/>
-  <table-pane table-ref="TAB82" x="28" y="386" bgColor="0xf6bcbc" fgColor="0x000000" rounded="false" dashed="false"/>
-  <table-pane table-ref="TAB92" x="496" y="508" bgColor="0xf6bcbc" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB82" x="24" y="389" bgColor="0xf6bcbc" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB92" x="547" y="514" bgColor="0xf6bcbc" fgColor="0x000000" rounded="false" dashed="false"/>
   <table-pane table-ref="TAB102" x="315" y="212" bgColor="0xf6bcbc" fgColor="0x000000" rounded="false" dashed="false"/>
   <table-pane table-ref="TAB123" x="539" y="323" bgColor="0xe6d794" fgColor="0x000000" rounded="false" dashed="false"/>
   <table-link relationship-ref="REL140" pkConnection="0.199288256227758" fkConnection="0.4312796208530806" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="33"/>
@@ -529,7 +529,7 @@ Will use enums 1,2,3,4</remarks>
   <table-link relationship-ref="REL144" pkConnection="0.6761565836298933" fkConnection="0.7559055118110236" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="18"/>
   <table-link relationship-ref="REL146" pkConnection="0.5658362989323843" fkConnection="0.6460176991150443" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="18"/>
   <table-link relationship-ref="REL148" pkConnection="0.22419928825622776" fkConnection="0.3546099290780142" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="18"/>
-  <table-link relationship-ref="REL150" pkConnection="0.1292517006802721" fkConnection="0.375" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="72"/>
+  <table-link relationship-ref="REL150" pkConnection="0.46938775510204084" fkConnection="0.4945652173913043" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="72"/>
   <table-link relationship-ref="REL152" pkConnection="0.2823529411764706" fkConnection="0.8256227758007118" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="18"/>
  </play-pen>
  <critic-manager>
@@ -579,7 +579,19 @@ Will use enums 1,2,3,4</remarks>
  <profiles topNCount="10">
   </profiles>
   <olap>
+   <olap-session id="0" db-ref="ppdb">
+    <Schema id="1" name="New OLAP Schema">
+     <Dimension id="2" name="TEST" type="StandardDimension" caption="whatever"/>
+     <Dimension id="3" name="New Dimension 1" type="StandardDimension"/>
+    </Schema>
+   </olap-session>
   </olap>
   <olap-gui>
+   <olap-edit-session osession-ref="0">
+    <play-pen zoom="1.189207115002721" viewportX="1022" viewportY="0">
+     <dimension-pane id="DP0" model-ref="2" x="201" y="184"/>
+     <dimension-pane id="DP1" model-ref="3" x="176" y="295"/>
+    </play-pen>
+   </olap-edit-session>
   </olap-gui>
 </architect-project>
