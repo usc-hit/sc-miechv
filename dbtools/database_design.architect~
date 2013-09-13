@@ -54,13 +54,13 @@
     <column id="COL13" populated="true" UUID="a8d12799-3955-4012-9914-36a279b0c7d3" autoIncrement="false" autoIncrementSequenceName="CHILD_DETAILS_SSN_seq" defaultValue="" name="SSN" nullable="0" physicalName="SSN" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="-5" userDefinedTypeUUID="433cc8af-284d-4abb-8ef7-08ebcb34dbf1" >
      <remarks>SSN of the child.</remarks>
     </column>
-    <column id="COL14" populated="true" UUID="4e95a8f7-5cfc-4459-8243-01e0d58729ca" autoIncrement="false" autoIncrementSequenceName="CHILD_DETAILS_FIRST_NAME_seq" defaultValue="" name="FIRST_NAME" nullable="0" physicalName="FIRST_NAME" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL14" populated="true" UUID="4e95a8f7-5cfc-4459-8243-01e0d58729ca" autoIncrement="false" autoIncrementSequenceName="CHILD_DETAILS_FIRST_NAME_seq" defaultValue="" name="FIRST_NAME" nullable="0" physicalName="FIRST_NAME" precision="50" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks></remarks>
     </column>
-    <column id="COL15" populated="true" UUID="792d3aac-b8d3-4c9e-a3e9-34fa97eb4da8" autoIncrement="false" autoIncrementSequenceName="CHILD_DETAILS_MIDDLE_NAME_seq" defaultValue="" name="MIDDLE_NAME" nullable="0" physicalName="MIDDLE_NAME" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL15" populated="true" UUID="792d3aac-b8d3-4c9e-a3e9-34fa97eb4da8" autoIncrement="false" autoIncrementSequenceName="CHILD_DETAILS_MIDDLE_NAME_seq" defaultValue="" name="MIDDLE_NAME" nullable="0" physicalName="MIDDLE_NAME" precision="50" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks></remarks>
     </column>
-    <column id="COL16" populated="true" UUID="147be87b-450f-4165-912c-6da13d93e11e" autoIncrement="false" autoIncrementSequenceName="CHILD_DETAILS_LAST_NAME_seq" defaultValue="" name="LAST_NAME" nullable="0" physicalName="LAST_NAME" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL16" populated="true" UUID="147be87b-450f-4165-912c-6da13d93e11e" autoIncrement="false" autoIncrementSequenceName="CHILD_DETAILS_LAST_NAME_seq" defaultValue="" name="LAST_NAME" nullable="0" physicalName="LAST_NAME" precision="50" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks></remarks>
     </column>
     <column id="COL17" populated="true" UUID="6e09e258-21d4-493b-9b12-2c11581f56dd" autoIncrement="false" autoIncrementSequenceName="CHILD_DETAILS_BIRTH_DATE_seq" defaultValue="" name="BIRTH_DATE" nullable="0" physicalName="BIRTH_DATE" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="91" userDefinedTypeUUID="ee349be3-6af2-46e1-b305-975f5354b009" >
@@ -69,13 +69,13 @@
     <column id="COL18" populated="true" UUID="7f28b60e-ebe0-4c09-8a0d-40945d7fc773" autoIncrement="false" autoIncrementSequenceName="CHILD_DETAILS_SEX_seq" defaultValue="" name="SEX" nullable="0" physicalName="SEX" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="1" userDefinedTypeUUID="67ddc63f-5541-4dd1-9236-632d9d155e80" >
      <remarks></remarks>
     </column>
-    <column id="COL19" populated="true" UUID="2cc04ca9-1ff7-474c-aa03-036e79fbde75" autoIncrement="false" autoIncrementSequenceName="CHILD_DETAILS_RACE_seq" defaultValue="" name="RACE" nullable="0" physicalName="RACE" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL19" populated="true" UUID="2cc04ca9-1ff7-474c-aa03-036e79fbde75" autoIncrement="false" autoIncrementSequenceName="CHILD_DETAILS_RACE_seq" defaultValue="" name="RACE" nullable="0" physicalName="RACE" precision="50" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks></remarks>
     </column>
-    <column id="COL20" populated="true" UUID="f5a98a18-359a-44b6-a4a2-354b0ec5f6a9" autoIncrement="false" autoIncrementSequenceName="CHILD_DETAILS_ETHNICITY_seq" defaultValue="" name="ETHNICITY" nullable="0" physicalName="ETHNICITY" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL20" populated="true" UUID="f5a98a18-359a-44b6-a4a2-354b0ec5f6a9" autoIncrement="false" autoIncrementSequenceName="CHILD_DETAILS_ETHNICITY_seq" defaultValue="" name="ETHNICITY" nullable="0" physicalName="ETHNICITY" precision="50" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks></remarks>
     </column>
-    <column id="COL21" populated="true" UUID="feed6d6e-d420-42f4-aacc-dcc1dc92082a" autoIncrement="false" autoIncrementSequenceName="CHILD_DETAILS_INSURANCE_PERIOD_seq" defaultValue="" name="INSURANCE_PERIOD" nullable="0" physicalName="INSURANCE_PERIOD" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL21" populated="true" UUID="feed6d6e-d420-42f4-aacc-dcc1dc92082a" autoIncrement="false" autoIncrementSequenceName="CHILD_DETAILS_INSURANCE_PERIOD_seq" defaultValue="" name="INSURANCE_PERIOD" nullable="0" physicalName="INSURANCE_PERIOD" precision="50" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks></remarks>
     </column>
     <column id="COL22" populated="true" UUID="a00033ac-80f8-4b42-aea4-26ed22408938" autoIncrement="false" autoIncrementSequenceName="CHILD_DETAILS_INSURANCE_STATUS_seq" defaultValue="0" name="INSURANCE_STATUS" nullable="0" physicalName="INSURANCE_STATUS" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="16" userDefinedTypeUUID="a26374aa-3026-4bb8-b564-eb2e186dfa5d" >
@@ -246,10 +246,10 @@
     <column id="COL67" populated="true" UUID="5422dbcb-223d-47e6-8ea4-3ede3a6589c1" autoIncrement="false" autoIncrementSequenceName="INTERACTIONS_WATER_SAFETY_seq" defaultValue="0" name="WATER_SAFETY" nullable="0" physicalName="WATER_SAFETY" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="16" userDefinedTypeUUID="a26374aa-3026-4bb8-b564-eb2e186dfa5d" >
      <remarks></remarks>
     </column>
-    <column id="COL68" populated="true" UUID="4718d079-2867-4804-aa63-97c989f1a3d1" autoIncrement="false" autoIncrementSequenceName="INTERACTIONS_PLAYGROUND_SAFETY_seq" defaultValue="0" name="PLAYGROUND_SAFETY" nullable="0" physicalName="PLAYGROUND_SAFETY" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL68" populated="true" UUID="4718d079-2867-4804-aa63-97c989f1a3d1" autoIncrement="false" autoIncrementSequenceName="INTERACTIONS_PLAYGROUND_SAFETY_seq" defaultValue="" name="PLAYGROUND_SAFETY" nullable="0" physicalName="PLAYGROUND_SAFETY" precision="10" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks></remarks>
     </column>
-    <column id="COL69" populated="true" UUID="de441d56-91c0-47b5-95ab-f5bc9185ea90" autoIncrement="false" autoIncrementSequenceName="INTERACTIONS_PROGRAM_PERIOD_seq" defaultValue="" name="PROGRAM_PERIOD" nullable="0" physicalName="PROGRAM_PERIOD" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="5" userDefinedTypeUUID="69fb547f-e14c-4748-9746-4c0e9e94eb52" >
+    <column id="COL69" populated="true" UUID="de441d56-91c0-47b5-95ab-f5bc9185ea90" autoIncrement="false" autoIncrementSequenceName="INTERACTIONS_PROGRAM_PERIOD_seq" defaultValue="1" name="PROGRAM_PERIOD" nullable="0" physicalName="PROGRAM_PERIOD" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="5" userDefinedTypeUUID="69fb547f-e14c-4748-9746-4c0e9e94eb52" >
      <remarks>,4 respectively for the above time periods.</remarks>
     </column>
     </folder>
@@ -307,13 +307,13 @@
     <column id="COL84" populated="true" UUID="cc63226f-18bb-4635-9e35-6848e67153db" autoIncrement="false" autoIncrementSequenceName="PREGNANT_MOTHERS_WEEKS_AFTER_DR_VISIT_seq" defaultValue="" name="WEEKS_AFTER_DR_VISIT" nullable="0" physicalName="WEEKS_AFTER_DR_VISIT" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
      <remarks>only for pregnancy test or WIC</remarks>
     </column>
-    <column id="COL85" populated="true" UUID="57e3e1ac-e2b1-43e2-a165-57d68c9b7372" autoIncrement="false" autoIncrementSequenceName="PREGNANT_MOTHERS_MODE_OF_PAY_seq" defaultValue="" name="MODE_OF_PAY" nullable="0" physicalName="MODE_OF_PAY" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL85" populated="true" UUID="57e3e1ac-e2b1-43e2-a165-57d68c9b7372" autoIncrement="false" autoIncrementSequenceName="PREGNANT_MOTHERS_MODE_OF_PAY_seq" defaultValue="" name="MODE_OF_PAY" nullable="0" physicalName="MODE_OF_PAY" precision="30" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks></remarks>
     </column>
-    <column id="COL86" populated="true" UUID="f89f568f-c330-4e91-aedf-b52edb003972" autoIncrement="false" autoIncrementSequenceName="PREGNANT_MOTHERS_PRENATAL_CARE_seq" defaultValue="" name="PRENATAL_CARE" nullable="1" physicalName="PRENATAL_CARE" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL86" populated="true" UUID="f89f568f-c330-4e91-aedf-b52edb003972" autoIncrement="false" autoIncrementSequenceName="PREGNANT_MOTHERS_PRENATAL_CARE_seq" defaultValue="" name="PRENATAL_CARE" nullable="1" physicalName="PRENATAL_CARE" precision="30" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks>nt.</remarks>
     </column>
-    <column id="COL87" populated="true" UUID="8109f928-cb3e-4bd2-9aca-b640ca415494" autoIncrement="false" autoIncrementSequenceName="PREGNANT_MOTHERS_NO_OF_CIGS_seq" defaultValue="" name="NO_OF_CIGS" nullable="0" physicalName="NO_OF_CIGS" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL87" populated="true" UUID="8109f928-cb3e-4bd2-9aca-b640ca415494" autoIncrement="false" autoIncrementSequenceName="PREGNANT_MOTHERS_NO_OF_CIGS_seq" defaultValue="" name="NO_OF_CIGS" nullable="0" physicalName="NO_OF_CIGS" precision="30" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks>becoming pregnant.</remarks>
     </column>
     <column id="COL88" populated="true" UUID="ccd48378-d55e-418b-a1c7-ebc3fd19cce2" autoIncrement="false" autoIncrementSequenceName="PREGNANT_MOTHERS_DISCUSSED_NO_SMOKING_seq" defaultValue="0" name="DISCUSSED_NO_SMOKING" nullable="0" physicalName="DISCUSSED_NO_SMOKING" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="16" userDefinedTypeUUID="a26374aa-3026-4bb8-b564-eb2e186dfa5d" >
@@ -333,28 +333,28 @@
     </index>
    </folder>
   </table>
-  <table id="TAB92" populated="true" UUID="31acab4f-5fab-43e9-9983-9697a765265e" name="HEALTH_SERVICES_0" objectType="TABLE" physicalName="HEALTH_SERVICES_0" >
+  <table id="TAB92" populated="true" UUID="31acab4f-5fab-43e9-9983-9697a765265e" name="HEALTH_SERVICES" objectType="TABLE" physicalName="HEALTH_SERVICES" >
    <remarks></remarks>
    <folder id="FOLTAB921" populated="true" name="Columns" physicalName="Columns" type="1">
-    <column id="COL93" populated="true" UUID="b778dd77-599a-4949-b45f-3432f5c89224" autoIncrement="false" autoIncrementSequenceName="PARENT_DETAILS_PARENT_ID_seq_4" defaultValue="" name="PARENT_ID" nullable="0" physicalName="PARENT_ID" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="-5" userDefinedTypeUUID="433cc8af-284d-4abb-8ef7-08ebcb34dbf1" >
+    <column id="COL93" populated="true" UUID="b778dd77-599a-4949-b45f-3432f5c89224" autoIncrement="false" autoIncrementSequenceName="HEALTH_SERVICES_PARENT_ID_seq" defaultValue="" name="PARENT_ID" nullable="0" physicalName="PARENT_ID" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="-5" userDefinedTypeUUID="433cc8af-284d-4abb-8ef7-08ebcb34dbf1" >
      <remarks>identified by this unique id.</remarks>
     </column>
-    <column id="COL94" populated="true" UUID="03d0695a-e545-4830-8b75-777a421e0b69" autoIncrement="false" autoIncrementSequenceName="HEALTH_SERVICES_0_INSURANCE_STATUS_seq" defaultValue="" name="INSURANCE_STATUS" nullable="0" physicalName="INSURANCE_STATUS" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL94" populated="true" UUID="03d0695a-e545-4830-8b75-777a421e0b69" autoIncrement="false" autoIncrementSequenceName="HEALTH_SERVICES_INSURANCE_STATUS_seq" defaultValue="" name="INSURANCE_STATUS" nullable="0" physicalName="INSURANCE_STATUS" precision="50" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks></remarks>
     </column>
-    <column id="COL95" populated="true" UUID="f2f74504-e1fc-4b25-b9dc-47629c72c08b" autoIncrement="false" autoIncrementSequenceName="HEALTH_SERVICES_0_LAST_CHECKUP_seq" defaultValue="" name="LAST_CHECKUP" nullable="0" physicalName="LAST_CHECKUP" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL95" populated="true" UUID="f2f74504-e1fc-4b25-b9dc-47629c72c08b" autoIncrement="false" autoIncrementSequenceName="HEALTH_SERVICES_LAST_CHECKUP_seq" defaultValue="" name="LAST_CHECKUP" nullable="0" physicalName="LAST_CHECKUP" precision="50" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks>Last routing checkup.</remarks>
     </column>
-    <column id="COL96" populated="true" UUID="cc1fd6ba-2039-45b6-aa2b-a1c5b92084bf" autoIncrement="false" autoIncrementSequenceName="HEALTH_SERVICES_0_PARTICIPANT_SMOKES_seq" defaultValue="0" name="PARTICIPANT_SMOKES" nullable="0" physicalName="PARTICIPANT_SMOKES" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="16" userDefinedTypeUUID="a26374aa-3026-4bb8-b564-eb2e186dfa5d" >
+    <column id="COL96" populated="true" UUID="cc1fd6ba-2039-45b6-aa2b-a1c5b92084bf" autoIncrement="false" autoIncrementSequenceName="HEALTH_SERVICES_PARTICIPANT_SMOKES_seq" defaultValue="0" name="PARTICIPANT_SMOKES" nullable="0" physicalName="PARTICIPANT_SMOKES" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="16" userDefinedTypeUUID="a26374aa-3026-4bb8-b564-eb2e186dfa5d" >
      <remarks>Does the participant smoke.</remarks>
     </column>
-    <column id="COL97" populated="true" UUID="f20c878a-6d97-4adf-8fcb-07bfcdffb435" autoIncrement="false" autoIncrementSequenceName="HEALTH_SERVICES_0_SMOKE_FREQ_seq" defaultValue="" name="SMOKE_FREQ" nullable="0" physicalName="SMOKE_FREQ" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL97" populated="true" UUID="f20c878a-6d97-4adf-8fcb-07bfcdffb435" autoIncrement="false" autoIncrementSequenceName="HEALTH_SERVICES_SMOKE_FREQ_seq" defaultValue="" name="SMOKE_FREQ" nullable="0" physicalName="SMOKE_FREQ" precision="10" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks>Smoking frequency, no of cigarettes per day.</remarks>
     </column>
-    <column id="COL98" populated="true" UUID="8aafa431-5034-4f85-ac8b-7e2d4bddf47b" autoIncrement="false" autoIncrementSequenceName="HEALTH_SERVICES_0_ATTEMPT_SMOKE_QUIT_seq" defaultValue="" name="ATTEMPT_SMOKE_QUIT" nullable="0" physicalName="ATTEMPT_SMOKE_QUIT" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="16" userDefinedTypeUUID="a26374aa-3026-4bb8-b564-eb2e186dfa5d" >
+    <column id="COL98" populated="true" UUID="8aafa431-5034-4f85-ac8b-7e2d4bddf47b" autoIncrement="false" autoIncrementSequenceName="HEALTH_SERVICES_ATTEMPT_SMOKE_QUIT_seq" defaultValue="0" name="ATTEMPT_SMOKE_QUIT" nullable="0" physicalName="ATTEMPT_SMOKE_QUIT" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="16" userDefinedTypeUUID="a26374aa-3026-4bb8-b564-eb2e186dfa5d" >
      <remarks>Has paticipant attempted to quit smoking.</remarks>
     </column>
-    <column id="COL99" populated="true" UUID="f6731f19-dbdb-40f7-9e6f-84b36c7948fd" autoIncrement="false" autoIncrementSequenceName="HEALTH_SERVICES_0_PROGRAM_PERIOD_seq" defaultValue="" name="PROGRAM_PERIOD" nullable="0" physicalName="PROGRAM_PERIOD" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL99" populated="true" UUID="f6731f19-dbdb-40f7-9e6f-84b36c7948fd" autoIncrement="false" autoIncrementSequenceName="HEALTH_SERVICES_PROGRAM_PERIOD_seq" defaultValue="" name="PROGRAM_PERIOD" nullable="0" physicalName="PROGRAM_PERIOD" precision="50" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks>ths, 12 months and 24 Months
 Will use enums 1,2,3,4</remarks>
     </column>
@@ -364,7 +364,7 @@ Will use enums 1,2,3,4</remarks>
     <folder id="FOLTAB922" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
     </folder>
     <folder id="FOLTAB924" populated="true" name="Indices" physicalName="Indices" type="4">
-    <index id="IDX100" populated="true" UUID="0e4e67c0-1089-4d81-adff-7577f3b3a310" clustered="false" name="HEALTH_SERVICES_0_pk" physicalName="health_services_0_pk" primaryKeyIndex="true" unique="false" >
+    <index id="IDX100" populated="true" UUID="0e4e67c0-1089-4d81-adff-7577f3b3a310" clustered="false" name="HEALTH_SERVICES_pk" physicalName="health_services_pk" primaryKeyIndex="true" unique="false" >
      <index-column id="IDC101" populated="true" UUID="2ba067d2-f2a0-4dd1-bcd7-4c003ce66d5d" ascendingOrDescending="UNSPECIFIED" column-ref="COL93" name="PARENT_ID" physicalName="PARENT_ID" />
     </index>
    </folder>
@@ -381,13 +381,13 @@ Will use enums 1,2,3,4</remarks>
     <column id="COL105" populated="true" UUID="e3b506ee-c646-4df4-8c48-32d3ccda89d4" autoIncrement="false" autoIncrementSequenceName="PARENT_DETAILS_SSN_seq" defaultValue="" name="SSN" nullable="0" physicalName="SSN" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="-5" userDefinedTypeUUID="433cc8af-284d-4abb-8ef7-08ebcb34dbf1" >
      <remarks>SSN of the child.</remarks>
     </column>
-    <column id="COL106" populated="true" UUID="6663d1fc-6939-495e-b078-075e6a6e1c76" autoIncrement="false" autoIncrementSequenceName="PARENT_DETAILS_FIRST_NAME_seq" defaultValue="" name="FIRST_NAME" nullable="0" physicalName="FIRST_NAME" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL106" populated="true" UUID="6663d1fc-6939-495e-b078-075e6a6e1c76" autoIncrement="false" autoIncrementSequenceName="PARENT_DETAILS_FIRST_NAME_seq" defaultValue="" name="FIRST_NAME" nullable="0" physicalName="FIRST_NAME" precision="50" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks></remarks>
     </column>
-    <column id="COL107" populated="true" UUID="5e634224-413c-48ec-8886-a06383233673" autoIncrement="false" autoIncrementSequenceName="PARENT_DETAILS_MIDDLE_NAME_seq" defaultValue="" name="MIDDLE_NAME" nullable="0" physicalName="MIDDLE_NAME" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL107" populated="true" UUID="5e634224-413c-48ec-8886-a06383233673" autoIncrement="false" autoIncrementSequenceName="PARENT_DETAILS_MIDDLE_NAME_seq" defaultValue="" name="MIDDLE_NAME" nullable="0" physicalName="MIDDLE_NAME" precision="50" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks></remarks>
     </column>
-    <column id="COL108" populated="true" UUID="15b79a81-3c92-430f-86ca-b53e0c46037f" autoIncrement="false" autoIncrementSequenceName="PARENT_DETAILS_LAST_NAME_seq" defaultValue="" name="LAST_NAME" nullable="0" physicalName="LAST_NAME" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL108" populated="true" UUID="15b79a81-3c92-430f-86ca-b53e0c46037f" autoIncrement="false" autoIncrementSequenceName="PARENT_DETAILS_LAST_NAME_seq" defaultValue="" name="LAST_NAME" nullable="0" physicalName="LAST_NAME" precision="50" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks></remarks>
     </column>
     <column id="COL109" populated="true" UUID="9af3aa93-33de-4818-9981-0f4f653ab3ba" autoIncrement="false" autoIncrementSequenceName="PARENT_DETAILS_BIRTH_DATE_seq" defaultValue="" name="BIRTH_DATE" nullable="0" physicalName="BIRTH_DATE" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="91" userDefinedTypeUUID="ee349be3-6af2-46e1-b305-975f5354b009" >
@@ -396,25 +396,25 @@ Will use enums 1,2,3,4</remarks>
     <column id="COL110" populated="true" UUID="d3898a7f-fc55-4fb7-bc7d-11b167b67234" autoIncrement="false" autoIncrementSequenceName="PARENT_DETAILS_SEX_seq" defaultValue="" name="SEX" nullable="0" physicalName="SEX" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="1" userDefinedTypeUUID="67ddc63f-5541-4dd1-9236-632d9d155e80" >
      <remarks></remarks>
     </column>
-    <column id="COL111" populated="true" UUID="370e4a75-bcb8-4f63-9263-59de0dab5f2c" autoIncrement="false" autoIncrementSequenceName="PARENT_DETAILS_MARITAL_STATUS_seq" defaultValue="" name="MARITAL_STATUS" nullable="0" physicalName="MARITAL_STATUS" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL111" populated="true" UUID="370e4a75-bcb8-4f63-9263-59de0dab5f2c" autoIncrement="false" autoIncrementSequenceName="PARENT_DETAILS_MARITAL_STATUS_seq" defaultValue="" name="MARITAL_STATUS" nullable="0" physicalName="MARITAL_STATUS" precision="20" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks></remarks>
     </column>
-    <column id="COL112" populated="true" UUID="aa51c756-860f-4539-884c-843384b7e587" autoIncrement="false" autoIncrementSequenceName="PARENT_DETAILS_RACE_seq" defaultValue="" name="RACE" nullable="0" physicalName="RACE" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL112" populated="true" UUID="aa51c756-860f-4539-884c-843384b7e587" autoIncrement="false" autoIncrementSequenceName="PARENT_DETAILS_RACE_seq" defaultValue="" name="RACE" nullable="0" physicalName="RACE" precision="50" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks></remarks>
     </column>
-    <column id="COL113" populated="true" UUID="45d3e9ea-b7c8-4cf1-8d93-b6989489b060" autoIncrement="false" autoIncrementSequenceName="PARENT_DETAILS_ETHNICITY_seq" defaultValue="" name="ETHNICITY" nullable="0" physicalName="ETHNICITY" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL113" populated="true" UUID="45d3e9ea-b7c8-4cf1-8d93-b6989489b060" autoIncrement="false" autoIncrementSequenceName="PARENT_DETAILS_ETHNICITY_seq" defaultValue="" name="ETHNICITY" nullable="0" physicalName="ETHNICITY" precision="50" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks></remarks>
     </column>
-    <column id="COL114" populated="true" UUID="b8c049a9-0c3f-467f-aa55-cd2e0b29ef74" autoIncrement="false" autoIncrementSequenceName="PARENT_DETAILS_ADDRESS_LINE_1_seq" defaultValue="" name="ADDRESS_LINE_1" nullable="0" physicalName="ADDRESS_LINE_1" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL114" populated="true" UUID="b8c049a9-0c3f-467f-aa55-cd2e0b29ef74" autoIncrement="false" autoIncrementSequenceName="PARENT_DETAILS_ADDRESS_LINE_1_seq" defaultValue="" name="ADDRESS_LINE_1" nullable="0" physicalName="ADDRESS_LINE_1" precision="200" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks></remarks>
     </column>
-    <column id="COL115" populated="true" UUID="f50591f6-1c7a-4f73-9532-4b47031d03fc" autoIncrement="false" autoIncrementSequenceName="PARENT_DETAILS_ADDRESS_LINE_2_seq" defaultValue="" name="ADDRESS_LINE_2" nullable="0" physicalName="ADDRESS_LINE_2" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL115" populated="true" UUID="f50591f6-1c7a-4f73-9532-4b47031d03fc" autoIncrement="false" autoIncrementSequenceName="PARENT_DETAILS_ADDRESS_LINE_2_seq" defaultValue="" name="ADDRESS_LINE_2" nullable="0" physicalName="ADDRESS_LINE_2" precision="200" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks></remarks>
     </column>
-    <column id="COL116" populated="true" UUID="a2d2165c-4d5f-4e06-b4f3-889efeff3c41" autoIncrement="false" autoIncrementSequenceName="PARENT_DETAILS_CITY_seq" defaultValue="" name="CITY" nullable="0" physicalName="CITY" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL116" populated="true" UUID="a2d2165c-4d5f-4e06-b4f3-889efeff3c41" autoIncrement="false" autoIncrementSequenceName="PARENT_DETAILS_CITY_seq" defaultValue="" name="CITY" nullable="0" physicalName="CITY" precision="30" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks></remarks>
     </column>
-    <column id="COL117" populated="true" UUID="d68b787e-badb-492a-b3a1-3ae5d56ffb62" autoIncrement="false" autoIncrementSequenceName="PARENT_DETAILS_STATE_seq" defaultValue="" name="STATE" nullable="0" physicalName="STATE" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL117" populated="true" UUID="d68b787e-badb-492a-b3a1-3ae5d56ffb62" autoIncrement="false" autoIncrementSequenceName="PARENT_DETAILS_STATE_seq" defaultValue="" name="STATE" nullable="0" physicalName="STATE" precision="20" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks></remarks>
     </column>
     <column id="COL118" populated="true" UUID="5fc22c55-692a-4036-8341-332abcb64105" autoIncrement="false" autoIncrementSequenceName="PARENT_DETAILS_ZIP_seq" defaultValue="" name="ZIP" nullable="0" physicalName="ZIP" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
@@ -443,13 +443,13 @@ Will use enums 1,2,3,4</remarks>
     <column id="COL124" populated="true" UUID="c33c2bea-d77c-4278-9013-f2248ec0203c" autoIncrement="true" autoIncrementSequenceName="USER_UID_seq_1" defaultValue="" name="UID" nullable="0" physicalName="UID" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
      <remarks></remarks>
     </column>
-    <column id="COL125" populated="true" UUID="5ab6c9bd-4f08-4372-8d82-a32a0586bb07" autoIncrement="false" autoIncrementSequenceName="USER_UNAME_seq" defaultValue="" name="UNAME" nullable="0" physicalName="UNAME" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL125" populated="true" UUID="5ab6c9bd-4f08-4372-8d82-a32a0586bb07" autoIncrement="false" autoIncrementSequenceName="USER_UNAME_seq" defaultValue="" name="UNAME" nullable="0" physicalName="UNAME" precision="20" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks></remarks>
     </column>
-    <column id="COL126" populated="true" UUID="538d671f-336e-46ad-b4a7-ad3535826309" autoIncrement="false" autoIncrementSequenceName="USER_USERTYPE_seq" defaultValue="" name="USERTYPE" nullable="0" physicalName="USERTYPE" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL126" populated="true" UUID="538d671f-336e-46ad-b4a7-ad3535826309" autoIncrement="false" autoIncrementSequenceName="USER_USERTYPE_seq" defaultValue="" name="USERTYPE" nullable="0" physicalName="USERTYPE" precision="20" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks></remarks>
     </column>
-    <column id="COL127" populated="true" UUID="c190b58f-4d03-43c6-989e-18181fd7f606" autoIncrement="false" autoIncrementSequenceName="USER_PASS_seq" defaultValue="" name="PASS" nullable="0" physicalName="PASS" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL127" populated="true" UUID="c190b58f-4d03-43c6-989e-18181fd7f606" autoIncrement="false" autoIncrementSequenceName="USER_PASS_seq" defaultValue="" name="PASS" nullable="0" physicalName="PASS" precision="20" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks></remarks>
     </column>
     </folder>
@@ -506,7 +506,7 @@ Will use enums 1,2,3,4</remarks>
  <liquibase-settings useSeparateChangeSets="false" generateId="false" idStart="1"/>
  <create-kettle-job-settings filePath="" jobName="" schemaName="" kettleJoinType="0" savingToFile="true" />
  <play-pen zoom="1.0" viewportX="0" viewportY="0" relationship-style="rectilinear" names-displayLogicalNames="true" showPrimaryTag="true" showForeignTag="true" showAlternateTag="true" columnVisibility="ALL" relationshipLabelVisibility="true">
-  <table-pane table-ref="TAB1" x="313" y="62" bgColor="0xbfd6ff" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB1" x="293" y="22" bgColor="0xbfd6ff" fgColor="0x000000" rounded="false" dashed="false"/>
   <table-pane table-ref="TAB9" x="556" y="64" bgColor="0xbfd6ff" fgColor="0x000000" rounded="false" dashed="false"/>
   <table-pane table-ref="TAB25" x="865" y="69" bgColor="0xbfd6ff" fgColor="0x000000" rounded="false" dashed="false"/>
   <table-pane table-ref="TAB32" x="871" y="255" bgColor="0xbfd6ff" fgColor="0x000000" rounded="false" dashed="false"/>
@@ -515,8 +515,8 @@ Will use enums 1,2,3,4</remarks>
   <table-pane table-ref="TAB53" x="872" y="347" bgColor="0xbfd6ff" fgColor="0x000000" rounded="false" dashed="false"/>
   <table-pane table-ref="TAB60" x="26" y="68" bgColor="0xf6bcbc" fgColor="0x000000" rounded="false" dashed="false"/>
   <table-pane table-ref="TAB72" x="24" y="248" bgColor="0xf6bcbc" fgColor="0x000000" rounded="false" dashed="false"/>
-  <table-pane table-ref="TAB82" x="28" y="386" bgColor="0xf6bcbc" fgColor="0x000000" rounded="false" dashed="false"/>
-  <table-pane table-ref="TAB92" x="496" y="508" bgColor="0xf6bcbc" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB82" x="24" y="389" bgColor="0xf6bcbc" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB92" x="547" y="514" bgColor="0xf6bcbc" fgColor="0x000000" rounded="false" dashed="false"/>
   <table-pane table-ref="TAB102" x="315" y="212" bgColor="0xf6bcbc" fgColor="0x000000" rounded="false" dashed="false"/>
   <table-pane table-ref="TAB123" x="539" y="323" bgColor="0xe6d794" fgColor="0x000000" rounded="false" dashed="false"/>
   <table-link relationship-ref="REL140" pkConnection="0.199288256227758" fkConnection="0.4312796208530806" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="33"/>
@@ -529,7 +529,7 @@ Will use enums 1,2,3,4</remarks>
   <table-link relationship-ref="REL144" pkConnection="0.6761565836298933" fkConnection="0.7559055118110236" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="18"/>
   <table-link relationship-ref="REL146" pkConnection="0.5658362989323843" fkConnection="0.6460176991150443" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="18"/>
   <table-link relationship-ref="REL148" pkConnection="0.22419928825622776" fkConnection="0.3546099290780142" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="18"/>
-  <table-link relationship-ref="REL150" pkConnection="0.1292517006802721" fkConnection="0.375" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="72"/>
+  <table-link relationship-ref="REL150" pkConnection="0.46938775510204084" fkConnection="0.4945652173913043" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="72"/>
   <table-link relationship-ref="REL152" pkConnection="0.2823529411764706" fkConnection="0.8256227758007118" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="18"/>
  </play-pen>
  <critic-manager>
@@ -579,7 +579,19 @@ Will use enums 1,2,3,4</remarks>
  <profiles topNCount="10">
   </profiles>
   <olap>
+   <olap-session id="0" db-ref="ppdb">
+    <Schema id="1" name="New OLAP Schema">
+     <Dimension id="2" name="TEST" type="StandardDimension" caption="whatever"/>
+     <Dimension id="3" name="New Dimension 1" type="StandardDimension"/>
+    </Schema>
+   </olap-session>
   </olap>
   <olap-gui>
+   <olap-edit-session osession-ref="0">
+    <play-pen zoom="1.189207115002721" viewportX="1022" viewportY="0">
+     <dimension-pane id="DP0" model-ref="2" x="201" y="184"/>
+     <dimension-pane id="DP1" model-ref="3" x="176" y="295"/>
+    </play-pen>
+   </olap-edit-session>
   </olap-gui>
 </architect-project>
